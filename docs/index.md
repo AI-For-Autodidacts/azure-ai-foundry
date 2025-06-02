@@ -5,7 +5,7 @@
 
 ---
 
-## 1. Microsoft Build: May 2025
+## 1. May 2025 · Microsoft Build
 
 [Azure AI Foundry](https://learn.microsoft.com/azure/ai-foundry/what-is-azure-ai-foundry) was at the heart of core announcements at Microsoft Build 2025. 
 
@@ -20,5 +20,6 @@
 1. [**Azure AI Foundry: Download SDK**](http://aka.ms/aifoundrysdk) - C#, Java, JavaScript & Python options
 1. [**Azure AI Foundry: Discord**](https://aka.ms/ai/discord) - Join the community for AMAs, news, events and more.
 1. [**Azure AI Foundry: Discussions Forum**](https://aka.ms/azureaifoundry/forum) - Get help, give product feedback, show-and-tell etc.
+1. [**Azure AI Foundry: DevBlog**](https://devblogs.microsoft.com/foundry/) - Latest blog announcements
 
 ---

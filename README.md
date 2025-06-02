@@ -17,5 +17,5 @@ The content will be organized into folders that represent a specific theme or co
 
 | Collection Name | Description | Folder |
 |-----------------|-------------|--------|
-| MSBuild 2025 | Top Azure AI Foundry announcements, talks and resources from Microsoft Build 2025 | [docs/msbuild-2025](./docs/msbuild-2025) |
+| MSBuild 2025 | Top Azure AI Foundry announcements, talks and resources from Microsoft Build 2025 | [MSBuild 2025](./docs/Events/2025-MSBuild/index.md) |
 | | | 
