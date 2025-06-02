@@ -1,0 +1,107 @@
+# General ...................................................
+site_name: Azure AI Foundry
+site_url: https://ai-for-autodidacts.github.io/azure-ai-foundry
+site_author: Nitya Narasimhan
+site_description: >-
+  Azure AI Foundry exploration for auto-didacts
+
+# Repository .................................................
+repo_name: ai-for-autodidacts/azure-ai-foundry
+repo_url: https://github.com/ai-for-autodidacts/azure-ai-foundry
+
+# Copyright ...................................................
+copyright: >
+  &copy; 2025-present Nitya Narasimhan, PhD &nbsp;|&nbsp;
+  <br/>🍪 | <a href="#__consent">Change cookie settings</a>
+
+# Configuration ...............................................
+theme:
+  name: material
+  font:
+    code: Roboto Mono  #Monospaced
+    text: Roboto       #Regular
+  logo: img/logo.svg
+  language: en
+
+  # Theme Modes ...............................................
+  palette:
+    - scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  # Theme Features ...............................................
+  features:
+    - navigation.instant
+    - navigation.expand             # sidebar collapsible sections open
+    - navigation.instant.progress   # load progress indicator
+    - navigation.tracking           # tracks anchor tags in URL
+    - navigation.tabs               # tabbed on desktop, single in mobile    
+    - navigation.tabs.sticky        # tabs stick when scrolling downtheme:
+    - navigation.path               # add breadcrumbs
+    - navigation.indexes            # default index.md in folder is section page
+    - navigation.top
+    - toc.follow
+    - navigation.footer
+    - content.code.copy             # allow copy-paste from codeblocks
+    - content.tabs.link             # Ensures site-wide switch to same tab name
+
+# Extras  ...............................................
+extra:
+  generator: false
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage 
+  analytics:
+    provider: google
+    property: G-VE5K8MFDX5
+
+# Plugins  ...............................................
+plugins:
+  - search
+
+# Extensions  ...............................................
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      auto_title: true
+      linenums: true
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+
+# Navigation  ...............................................
+nav:
